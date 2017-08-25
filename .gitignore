@@ -1,5 +1,6 @@
+# Haskell
+.stack-work/
 dist
-dist-*
 cabal-dev
 *.o
 *.hi
@@ -7,17 +8,23 @@ cabal-dev
 *.chs.h
 *.dyn_o
 *.dyn_hi
-.hpc
-.hsenv
-.cabal-sandbox/
-cabal.sandbox.config
 *.prof
 *.aux
 *.hp
-*.eventlog
-.stack-work/
-cabal.project.local
-.HTF/
+.virtualenv
+.hsenv
+.hpc
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.config
+TAGS
+.DS_Store
+*~
+*#
+
+# IDE/support
 .idea/
 .ideaHaskellLib/
-FmtExample.iml
+guide.iml
+.vscode/
+tags
